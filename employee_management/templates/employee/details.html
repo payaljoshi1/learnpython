@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Details Page</h2>
+<h3>First Name: {{user.first_name}}</h3>
+<h3>Last Name: {{user.last_name}}</h3>
+<h3>Email: {{user.email}}</h3>
+<!-- {% for profile in user.profiles %}
+    
+{% empty %}
+   
+{% endfor %} -->
+<h3>Designation: {{profile.designation}}</h3>
+
+
+{% endblock content %}
